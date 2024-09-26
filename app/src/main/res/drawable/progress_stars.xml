@@ -1,0 +1,14 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Estrelas vazias (fundo) -->
+    <item android:id="@android:id/background">
+        <bitmap android:src="@drawable/star_empty" />
+    </item>
+    <!-- Estrelas meio preenchidas (progresso secundário) -->
+    <item android:id="@android:id/secondaryProgress">
+        <bitmap android:src="@drawable/star_half" />
+    </item>
+    <!-- Estrelas preenchidas (progresso principal) -->
+    <item android:id="@android:id/progress">
+        <bitmap android:src="@drawable/star_full" />
+    </item>
+</layer-list>

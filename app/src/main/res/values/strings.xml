@@ -1,0 +1,22 @@
+<resources>
+
+<!-- Tema principal do aplicativo -->
+<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#FF9800</item>
+    <item name="colorPrimaryDark">#F57C00</item>
+    <item name="colorAccent">#FFEB3B</item>
+</style>
+
+<!-- Estilo personalizado para o RatingBar -->
+<style name="RatingBar" parent="Widget.AppCompat.RatingBar">
+    <item name="android:progressDrawable">@drawable/star_full</item>
+    <item name="android:secondaryProgress">@drawable/star_empty</item>
+    <item name="android:minHeight">48dp</item>
+    <item name="android:maxHeight">48dp</item>
+</style>
+
+</resources>
+
+
+
+
